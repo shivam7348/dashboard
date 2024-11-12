@@ -40,6 +40,15 @@ const employees = [
         email: 'alexmode@microsoft.com',
         img: 'https://images.pexels.com/photos/29232927/pexels-photo-29232927/free-photo-of-young-woman-dancing-joyfully-in-a-flower-field.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
         status: 'inactive' },
+
+      {
+        id: 7,
+        name: 'Abhishek',
+        role: 'Telecaller',
+        email: 'sachinamx@hmahsoutllok@gmail com',
+        img: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fG1vY2t8ZW58MHx8MHx8fDA%3D',
+        status: 'active'
+      }
      
   
 ];

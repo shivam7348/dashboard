@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 
+
 function FilterToggle() {
-  const [filter, setFilter] = useState("All"); // Default filter is "All"
+  const [filter, setFilter] = useState("All");
 
   return (
     <div className="p-4">
-      <h3 className="text-lg font-semibold mb-4">Employees:</h3>
+      <h3 className="text-lg font-semibold ">Employees:</h3>
       <div className="flex justify-end space-x-4">
         
         <button
@@ -15,6 +16,7 @@ function FilterToggle() {
           }`}
         >
           All
+          
         </button>
 
      
