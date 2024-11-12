@@ -1,10 +1,15 @@
-import React from 'react';
+
 
 function EmployeeCard({ employee, onBlock, onDetails }) {
+ 
 
   function handleChange() {
-    console.log("print the block");
+  
     
+  }
+
+  function onDetailsUpdate() {
+ 
   }
   return (
     <div className="w-full max-w-sm bg-emerald-100 border border-gray-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-600 mb-2 pr-3  ">
@@ -30,14 +35,13 @@ function EmployeeCard({ employee, onBlock, onDetails }) {
       <div className="flex justify-center mt-4 md:mt-6 pb-5">
         <button
           onClick={handleChange}
-          className="inline-flex items-center px-4 py-2 text-sm font-medium text-black bg-white border-2 border-black rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-white dark:hover:bg-gray-200 dark:focus:ring-gray-800 mr-2"
-        >
+          className="inline-flex items-center px-4 py-2 text-sm font-medium text-black bg-white border-2 border-black rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-white dark:hover:bg-gray-200 dark:focus:ring-gray-800 mr-2">
           Block
+          
         </button>
         <button
-          onClick={() => onDetails(employee)}
-          className="py-2 px-4 text-sm font-medium text-white bg-black rounded-lg border border-gray-200 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-100 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
-        >
+          onClick={onDetailsUpdate}
+          className="py-2 px-4 text-sm font-medium text-white bg-black rounded-lg border border-gray-200 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-100 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700" >
           Details
         </button>
       </div>
